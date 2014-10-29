@@ -1,0 +1,16 @@
+<plugin name='zing-chart' version='0.1' grailsVersion='1.2.2 &gt; *'>
+  <author>Eric Berry</author>
+  <authorEmail>cavneb@gmail.com</authorEmail>
+  <title>Zing Charts</title>
+  <description>\
+Simple integration of Zing Charts into your Grails web application.
+</description>
+  <documentation>https://github.com/cavneb/zing-charts</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>zingchart.ZingChartExamplesController</resource>
+    <resource>zingchart.ZingChartTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
